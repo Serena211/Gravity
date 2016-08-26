@@ -7,12 +7,11 @@
 
 # Site settings
 title: Gravity
-email: hemangsk@gmail.com
+email: xliu0211@gmail.com
 description: The Liberal Jekyll Theme
 baseurl: "/Gravity" # the subpath of your site, e.g. /blog
-url: "http://hemangsk.github.io" # the base hostname & protocol for your site
-twitter_username: hemang_kumar
-github_username:  hemangsk
+url: "http://serena211.github.io" # the base hostname & protocol for your site
+github_username:  serena211
 
 # Build settings
 markdown: kramdown
