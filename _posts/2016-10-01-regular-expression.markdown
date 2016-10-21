@@ -5,7 +5,9 @@ date:   2016-10-01 19:45:31 +0530
 categories: notes
 author: "Serena Liu"
 ---
+<p>
 Regex called regular expression (sometimes called a rational expression) is a sequence of characters that define a search pattern, mainly for use in pattern matching with strings, or string matching, i.e. "find and replace"-like operations.
+</p>
 Practices:
 
 1. [Detect Email](https://www.hackerrank.com/challenges/detect-the-email-addresses):
@@ -21,7 +23,7 @@ Practices:
 (http|https)\\://(www.|ww2.|)([a-zA-Z0-9\\-\\.]+)(\\.[a-zA-Z]+)(/\\S*)?
 ```
 
-  ```
+<pre>
   import java.io.*;
   import java.util.*;
   import java.util.regex.*;
@@ -61,7 +63,6 @@ Practices:
           }
       }
   }
-  ```
-
+</pre>
 Reference:
 - http://regexr.com/
