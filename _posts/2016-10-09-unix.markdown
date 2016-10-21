@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "UNIX"
+date:   2016-10-09 09:45:31 +0530
+categories: notes
+author: "Serena Liu"
+---
+<p>Collected some common UNIX commands.</p>
+<pre>
+	ps aux | grep foo | grep -v grep | awk '{print $2}' | xargs kill
+</pre>
+1. `|`pipe: You can connect two commands together so that the output from one program becomes the input of the next program. Two or more commands connected in this way form a pipe.
+2. `ps aux`: list all running process by #ID
+	a = show processes for all users
+	u = display the process's user/owner
+	x = also show processes not attached to a terminal
+
+3. `grep "xx"`: search files for 'xx'
+
+4. `grep -v`: **invert match**
+
+5. `grep -v grep`: not list grep's process ID
+
+4. `awk '{print $2}’`: print out second column
+
+5. `xargs kill`: kill all PID’s running process
+
+[e.g. from StackOverflow](http://stackoverflow.com/questions/3510673/find-and-kill-a-process-in-one-line-using-bash-and-regex)
+
+<pre>
+tail -f /var/log/syslog
+</pre>
+1. `tail -f filename` = `tail -n 10 filename`: monitor file update and display information from the end of the file
+
+<pre>
+cat list.txt | sort | uniq | wc -l
+</pre>
+1. `cat list.txt`: display file
+2. `cat list.txt list1.txt > all.txt`: concatenate two files
+3. **wc**: word count
+	**-l lines; -w words; -m characters**
+
+<pre>
+./a.out 2> /dev/null
+</pre>
+1. /dev/null: black hole
+2. Linux I/O redirection: **1> stdout; 2> stderr; &> stdout and stderr**
+
+<pre>
+	grep -ewi 'that\|then\|the'
+</pre>
+1. [grep OR/AND/NOT](http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators/)
+2. `-i`: case not sensitive
+
+Notes:
+
+1. [awk](http://blog.csdn.net/andyxm/article/details/5964071)  
+Syntax:
+<pre>
+	awk '/search pattern1/ {Actions}    
+	 		/search pattern2/ {Actions}' file
+</pre>
+$0 print line; $1,$2,$3... print column;
