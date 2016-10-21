@@ -24,7 +24,7 @@ tagline: "Loved this blog? Follow me on **Serena211** github!"
 
 
 <div class="download">
-  <center>Just a second! <i class="fa fa-heart"></i> Follow on <b>Serena211<b> it if you loved!</center>
+  <center>Just a second! <i class="fa fa-heart"></i> Follow on <b>Serena211</b> it if you loved!</center>
   <br>
 <center>
   <iframe src="https://ghbtns.com/github-btn.html?user=serena211&repo=gravity&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
