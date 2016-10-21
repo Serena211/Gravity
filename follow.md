@@ -1,10 +1,11 @@
+<div id = "comments">
 ---
 layout: page
 title: Follow
 permalink: /follow/
 tagline: "Loved this blog? Follow me on **Serena211** github!"
 ---
-
+</div>
 
 <br>
 <div class="download">
