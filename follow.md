@@ -2,7 +2,6 @@
 layout: page
 title: Follow
 permalink: /follow/
-
 tagline: "Loved this template? Download Gravity from hemangsk githup! Loved this blog? Follow me on Serena211 github!"
 ---
 
