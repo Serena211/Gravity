@@ -5,8 +5,9 @@ date:   2016-03-30 19:45:31 +0530
 categories: notes
 author: "Serena Liu"
 ---
-[Regex](https://www.tutorialspoint.com/java/java_regular_expressions.htm)
+Regex
 
+Regex called regular expression (sometimes called a rational expression) is a sequence of characters that define a search pattern, mainly for use in pattern matching with strings, or string matching, i.e. "find and replace"-like operations.
 Practices:
 
 1. [Detect Email](https://www.hackerrank.com/challenges/detect-the-email-addresses):
