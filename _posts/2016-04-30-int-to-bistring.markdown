@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Science of Gravity"
-date:   2016-03-30 19:45:31 +0530
-categories: science
-author: "Chandler Bing"
+title:  "Int to BiString"
+date:   2016-04-30 19:45:31 +0530
+categories: algorithms
+author: "Serena Liu"
 ---
 "Could I be anymore pulling ?"
 
