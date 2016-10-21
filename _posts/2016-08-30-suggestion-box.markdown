@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Personal Project: Suggestion Box"
+url: "https://github.com/Serena211/SuggestionBox"
 date:   2016-08-30 19:45:31 +0530
 categories: ["projects", "angularjs", "rest"]
 author: "Serena Liu"
