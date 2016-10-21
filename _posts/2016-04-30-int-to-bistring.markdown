@@ -6,6 +6,7 @@ categories: algorithms
 author: "Serena Liu"
 ---
 <pre>
+<code>
 	/**
 	 * Converts an integer to a 32-bit binary string
 	 * @param number
@@ -29,5 +30,5 @@ author: "Serena Liu"
 
 	    return result.toString();
 	}
-
+</code>	
 </pre>
