@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "UNIX"
+title:  "CSS Tricks"
 date:   2016-10-09 09:45:31 
 categories: notes
 author: "Serena Liu"
