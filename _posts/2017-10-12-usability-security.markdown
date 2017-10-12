@@ -3,7 +3,7 @@ layout: post
 title:  "Cybersecurity : Usability Security"
 url: "https://www.coursera.org/learn/usable-security"
 date:   2017-10-12 19:45:31 +0530
-categories: ["security"]
+categories: ["notes", "security"]
 author: "Serena Liu"
 ---
 <artical>
